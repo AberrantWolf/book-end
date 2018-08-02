@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle book-end",
+        "command": "book-end:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "book-end",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "book-end:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

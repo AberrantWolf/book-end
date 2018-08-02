@@ -1,0 +1,25 @@
+{
+  "name": "book-end",
+  "main": "./lib/book-end",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "book-end:toggle"
+  },
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "book-end:consumeTreeView"
+      }
+    }
+  },
+  "repository": "https://github.com/AberrantWolf/book-end",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
