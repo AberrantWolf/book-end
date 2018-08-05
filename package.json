@@ -1,6 +1,6 @@
 {
   "name": "book-end",
-  "main": "./lib/book-end",
+  "main": "./lib/main",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
@@ -11,7 +11,7 @@
   "consumedServices": {
     "tree-view": {
       "versions": {
-        "^1.0.0": "book-end:consumeTreeView"
+        "^1.0.0": "consumeTreeView"
       }
     }
   },
